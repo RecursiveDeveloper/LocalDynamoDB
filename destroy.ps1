@@ -1,6 +1,6 @@
 $envname = "dynamodb_env"
 
-Write-Host "`nDeactivating Python Environment`n"
+Write-Host "`nDeactivating Python Environment $envname`n"
 deactivate
 Remove-Item -Recurse -Force .\$envname\
 
